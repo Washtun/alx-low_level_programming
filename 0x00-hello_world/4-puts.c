@@ -1,10 +1,17 @@
-#!/bin/bash
 #include <stdio.h>
+#include <string.h>
+
 int main()
 	
 {
-  
-   char Mystr[] = "Programming is like building a multilingual puzzle";
+   int puts(const char *Programming like a building is a multilingual puzzle)
+
+
+   char Mystr[];
+   
+   strcpy(Mystr, "Programming like a building is a multilingual puzzle");
+   
    puts(Mystr);
+   
    return(0);	 
 }

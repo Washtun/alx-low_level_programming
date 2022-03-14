@@ -1,18 +1,18 @@
-#!/bin/bash
 #include<stdio.h>
+
 int main() {
-    int intType;
-    float floatType;
-    long longType;
-    char charType;
-    long long longlongType;
+    int a;
+    float flt;
+    long lng;
+    char ch;
+    long long lng_2;
 
     // sizeof evaluates the size of a variable
-    printf("Size of char: %zu byte(s)\n", sizeof(charType));
-    printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-    printf("Size of a long int: %zu byte(s)\n", sizeof(longType));
-    printf("Size of a long long int: %zu byte(s)\n", sizeof(longlongType));
-    printf("Size of a float: %zu byte(s)\n", sizeof(floatType));
+    printf("Size of a char: %zu byte(s)\n", sizeof(ch));
+    printf("Size of an int: %zu byte(s)\n", sizeof(a));
+    printf("Size of a long int: %zu byte(s)\n", sizeof(lng));
+    printf("Size of a long long int: %zu byte(s)\n", sizeof(lng_2));
+    printf("Size of a float: %zu byte(s)\n", sizeof(flt));
     
     
 
