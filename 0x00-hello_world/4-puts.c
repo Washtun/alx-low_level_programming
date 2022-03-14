@@ -4,7 +4,6 @@
 int main()
 	
 {
-   int puts(const char *Programming like a building is a multilingual puzzle)
 
 
    char Mystr[];
