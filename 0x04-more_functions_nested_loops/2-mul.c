@@ -16,5 +16,5 @@
  
 	 
 	 integer_multiplication = a * b
-         return integer_multiplication;
+         return (integer_multiplication);
  }
