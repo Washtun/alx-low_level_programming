@@ -14,7 +14,7 @@ int _isdigit(int c)
 
         for (c = 48; c < 58; c++)
         {
-		if ((char)c >= 0 && (char)c <= 9) 
+		if (c >= '0' && c <= '9') 
 		{
 			
 			return (1);
