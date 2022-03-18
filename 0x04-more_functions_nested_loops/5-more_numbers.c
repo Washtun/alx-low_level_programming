@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
+
 /**
  * main - check the code
  * function that prints 10 times the
