@@ -13,14 +13,20 @@
 
 int _isupper(int c)
 {
-	if ((char)c >= 'A' && (char)c <= 'Z') 
-	{
-			
-		return (1);
+	int c;
+
+	for (c = 65; c < 123; c++)
+	
+	{	if (c >= 'A' && c <= 'Z') 
+		{
+			return (1);
+		}
+		
+		else 
+	
+		{
+			return (0);
+		
+		}	
 	}
-	else 
-	{
-		return (0);
-	}	
-        
 }
